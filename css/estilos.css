@@ -1,0 +1,278 @@
+/*
+ INTEGRANTES GRUPO I 
+
+1.Andrea Sofia Valdez Ordoñez 0801-2002-10874
+
+2.Myller Joseph Banegas Gomez 0801200409285
+
+3.Jared Samuel Méndez Pineda 0801200123191
+
+4.Miguel Angel Bueso Lacayo 1501199700333
+
+5.Javier Eduardo Ventura Guevara 0801 2001 20611
+
+6.Darrell Caceres Rosales 0801200212632
+
+*/
+
+
+:root {
+  --fuentelogo: 'Cinzel';
+  --fuenteHeading: "PT Sans", sans-serif;
+  --fuenteParrafos: "Open Sans", sans-serif;
+  --bloodred: #670A02ff;
+  --verdeliver: #1C7062ff;
+  font-size: 62.5%;
+}
+
+body p {
+  font-family: var(--fuenteParrafos);
+}
+h1{
+  font: var(--fuentelogo);
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--fuenteHeading);
+}
+
+header {
+  background-color: var(--bloodred);
+  width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  width: 100%;
+  height: 2rem;
+  margin: auto;
+  background-color: var(--verdeliver);
+}
+
+nav {
+  width: 100%;
+  height: 7.5rem;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: var(--verdeliver);
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 30%;
+  height: 7rem;
+  float: left;
+  box-sizing: border-box;
+}
+
+.texto-banner {
+  position: absolute;
+  color:  #004136ff;
+  font-size: 2rem;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 3rem;
+}
+
+nav a:hover {
+  color: #B6353Bff;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.contenedor-banner {
+  position: relative;
+  text-align: center;
+  
+}
+
+.img-header {
+  width: 85%;
+  height: auto;
+  position: relative;
+}
+
+.img-logo
+{
+  padding-top: 1.5rem;
+  padding-left: 25rem;
+}
+
+.color {
+  background-color: var(--bloodred);
+}
+
+.color2{
+  color: var(--verdeliver);
+}
+
+.container-section {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+  color: white;
+  height: 50%;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  
+}
+
+.container-section2 {
+  width: 20%;
+  margin:0;
+  margin-left: 50rem;
+  background-color: var(--bloodred);
+  flex-direction: row;
+  margin-bottom: 4%;
+  justify-content: center;
+  display: flex;
+}
+
+.container-section3 {
+  width: 80%;
+  background-color: var(--bloodred);
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.texto-section {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.texto-section p {
+  font-size: 1.6rem;
+}
+
+#p-section {
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  font-weight: bold;
+}
+
+
+.texto-section h3 {
+  color: var(--verdeliver);
+  font-size: 4rem;
+  text-align: center;
+  text-decoration:underline;
+}
+
+
+
+.texto-section h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 5%;
+  margin-left: 8%;
+  color: #D59149ff;
+}
+
+
+.container-sectionc {
+  margin-left: 50rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+.tabla {
+  width: 100%;
+  height: 10%;
+  background-color: var(--verdeliver);
+  color: black;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.tabla td {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.tabla th {
+	font-size: 1.8rem;
+	background-color: #f2f2f2;
+}
+
+
+.card {
+  width: 48%;
+  height: auto;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px;
+  color: black;
+  margin: 2rem;
+}
+
+.card p {
+	margin: 0 20% 0 20% 0;
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
+}
+
+#titulo{
+	font-weight: 800;
+}
+
+.img-card {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.info {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: gray;
+  font-size: 1rem;
+}
+
+.footer{
+  background-color: var(--verdeliver);
+  text-align: center;
+  padding: 1rem;
+
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a{
+  color: var(--colorLetrasNav);
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
